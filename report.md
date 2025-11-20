@@ -12,7 +12,7 @@
 
    ## submitter
 
-   - xxxxx
+   - GYSakura
 
    ## VERSION(S)
 
@@ -106,4 +106,5 @@
    1. **Use prepared statements and parameter binding:** Preparing statements can prevent SQL injection as they separate SQL code from user input data. When using prepare statements, the value entered by the user is treated as pure data and will not be interpreted as SQL code.
    2. **Input validation and filtering:** Strictly validate and filter user input data to ensure it conforms to the expected format.
    3. **Minimize database user permissions:** Ensure that the account used to connect to the database has the minimum necessary permissions. Avoid using accounts with advanced permissions (such as' root 'or' admin ') for daily operations.
+
    4. **Regular security audits:** Regularly conduct code and system security audits to promptly identify and fix potential security vulnerabilities.
